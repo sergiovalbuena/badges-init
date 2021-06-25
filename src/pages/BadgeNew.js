@@ -1,9 +1,9 @@
 import React from 'react';
 
-import '../styles/Badge.css';
-import header from '../../imgs/badge-header.svg';
-import Navbar from '../../components/Navbar';
-import Badge from '../Badge';
+import '../components/styles/Badge.css'
+import header from '../imgs/badge-header.svg';
+import Navbar from '../components/Navbar';
+import Badge from '../components/Badge';
 
 
 class  BadgeNew extends React.Component {

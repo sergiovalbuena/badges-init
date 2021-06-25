@@ -9,7 +9,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './global.css'
-import BadgeNew from './components/pages/BadgeNew';
+import BadgeNew from './pages/BadgeNew';
 
 
 
