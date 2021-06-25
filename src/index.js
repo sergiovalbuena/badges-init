@@ -16,4 +16,11 @@ import Badge from './components/Badge'
 const container = document.getElementById('app');
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<Badge />, container);
+ReactDOM.render(<Badge 
+firstName="Thalia" 
+lastName="Jimenez"
+avatarUrl="https://www.gravatar.com/avatar?d=identicon"  
+jobTitle="People Experience" 
+twitter="twitter.name" 
+
+/>, container);

@@ -5,6 +5,7 @@ import imgHeader from '../imgs/badge-header.svg';
 
 class Badge extends React.Component {
     render() {
+
         return (
             <div className="Bagde">
                 <div className="Badge__header">
@@ -12,12 +13,12 @@ class Badge extends React.Component {
                 </div>
 
                 <div className="Badge__section-name">
-                <img className="Badge__avatar" src="https://www.gravatar.com/avatar?d=identicon" alt="Avatar"></img>
-                    <h1>Sergio <br></br>Valbuena</h1>
+                <img className="Badge__avatar" src={this.props.avatarUrl} alt="Avatar"></img>
+                    <h1>{this.props.firstName} <br></br>{this.props.lastName}</h1>
                 </div>
                 <div className="Badge__section-info">
-                    <h3>Frontend Designer and Developer</h3>
-                    <div>@twitter.name</div>
+                    <h3>{this.props.jobTitle}</h3>
+                    <div>{this.props.twitter}</div>
                 </div>
                 <div className="Badge__footer">
                     #platziconf
