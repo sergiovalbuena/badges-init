@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 
 import Navbar from '../components/Navbar';
@@ -60,9 +61,9 @@ class Badges extends React.Component {
 
                 <div className="Badge__container">
                     <div className="Badges__buttons">
-                        <a href="/badges/new" className="primary-button">
+                        <Link to="/badges/new" className="primary-button">
                             New Badge
-                        </a>
+                        </Link>
                     </div>
 
                 <div className="Badges__list">
