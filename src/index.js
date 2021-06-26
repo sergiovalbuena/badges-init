@@ -10,10 +10,10 @@ import ReactDOM from 'react-dom';
 
 import './global.css'
 import BadgeNew from './pages/BadgeNew';
-
+import Badges from './pages/Badges';
 
 
 const container = document.getElementById('app');
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<BadgeNew/>, container);
+ReactDOM.render(<Badges/>, container);
